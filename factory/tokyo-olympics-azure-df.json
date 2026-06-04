@@ -1,0 +1,15 @@
+{
+	"name": "tokyo-olympics-azure-df",
+	"properties": {
+		"trustModeClaimForMi": {
+			"value": "Disabled",
+			"editable": true
+		}
+	},
+	"location": "centralus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "d96e5b66-4bdf-4d1d-8a3b-877d2fa3c855",
+		"tenantId": "5df7bfe8-c66e-4465-9a6b-7636fd5c6dd8"
+	}
+}
